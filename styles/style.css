@@ -1,0 +1,411 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: inherit;
+}
+
+
+
+/* Style */
+
+body {
+    background-image: url(../assets/bg.webp);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+section{
+	width:80%;
+	margin:auto;
+}
+
+.l1 {
+    list-style: none;
+    display: inline;
+    color: white;
+}
+
+.ul1 {
+    height: 50px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid white;
+}
+
+.l1:hover {
+    cursor: pointer;
+    color: aqua;
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+/* HOME */
+
+#home {
+    max-height: 100vh;
+}
+
+.home{
+    margin-left: -3px;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-left: 700px;
+    color: rgb(255, 255, 255);
+}
+
+h1:hover {
+    cursor: pointer;
+    color: darkcyan;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-left: 650px;
+    color: rgb(255, 255, 255);
+}
+
+h2:hover {
+    cursor: pointer;
+    color: darkcyan;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-left: 610px;
+    color: rgb(255, 255, 255);
+}
+
+h3:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+.mylook {
+    width: 900px;
+    height: 360px;
+    margin-left: 300px;
+}
+
+.mylook:hover {
+    cursor: pointer;
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+/* footer */
+
+footer {
+    position: fixed;
+    border: 1px solid;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    background-color: rgba(14, 0, 59, 0.419);
+    bottom: 0;
+    backdrop-filter: blur(2px);
+
+}
+
+.footertext {
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* ABOUT ME */
+
+#about {
+    height: 100vh;
+}
+
+.about{
+    margin-left: -3px;
+}
+
+.introduction {
+    width: fit-content;
+    border: 3px solid;
+    border-color: rgb(15, 103, 181);
+    margin-top: 50px;
+    margin-left: 250px;
+
+
+}
+
+.Iam {
+    margin-left: 650px;
+}
+
+.Iam:hover {
+    cursor: pointer;
+    color: darkcyan;
+}
+
+.brief {
+    margin-left: 570px;
+    color: white;
+    margin-top: 50px;
+    letter-spacing: 5px;
+    border-bottom: 1px white;
+}
+
+.brief:hover {
+    cursor: pointer;
+    font-style: italic;
+    color: brown;
+    scale: 1.08;
+    transition: 0.4s;
+}
+
+.paraabout1 {
+
+    color: white;
+    border-bottom: 1px white;
+    padding: 10px;
+}
+
+.paraabout2 {
+    margin-left: 100px;
+    color: white;
+    border-bottom: 1px white;
+    padding: 10px;
+}
+
+.paraabout3 {
+    margin-left: 50px;
+    color: white;
+    border-bottom: 1px white;
+    padding: 10px;
+    text-align: center;
+}
+
+.paraabout1:hover {
+    cursor: pointer;
+    scale: 1.02;
+    transition: 0.3s;
+    color: rgb(239, 3, 3);
+}
+
+.paraabout2:hover {
+    cursor: pointer;
+    scale: 1.02;
+    transition: 0.3s;
+    color: rgb(239, 3, 3);
+}
+
+.paraabout3:hover {
+    cursor: pointer;
+    scale: 1.02;
+    transition: 0.3s;
+    color: rgb(239, 3, 3);
+}
+
+.itpic {
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+.ps {
+    width: 200px;
+    height: 150px;
+    margin-left: 90px;
+}
+
+.rjt{
+    width: 200px;
+    height: 150px;
+    margin-top: -200px;
+    margin-left: 1250px;
+}
+
+
+/* PROJECT */
+
+#project {
+    height: 100vh;
+}
+
+.myprojects {
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
+.myprojects:hover {
+    cursor: pointer;
+    color: darkcyan;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.l2 {
+    top: 0;
+    text-align: center;
+    list-style: none;
+    display: list-item;
+    border: 1px solid;
+    width: 700px;
+    padding: 2px;
+    margin-left: 250px;
+}
+
+.l2:hover {
+    cursor: pointer;
+    color: rgb(255, 3, 3);
+    scale: 1.5;
+    transition: 0.4s;
+}
+
+.ul2 {
+    top: 0;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+
+/* SKILLS */
+
+.myskills {
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 50px;
+
+}
+
+.myskills:hover {
+    cursor: pointer;
+    color: darkcyan;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.l3 {
+    margin-top: 5px;
+    text-align: center;
+    list-style: none;
+    display: list-item;
+    border: 1px solid;
+    width: 100px;
+    padding: 2px;
+    margin-left: 560px;
+}
+
+.l3:hover {
+    cursor: pointer;
+    color: rgb(255, 3, 3);
+    scale: 1.5;
+    transition: 0.4s;
+}
+
+.ul3 {
+    top: 0;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+/* CONTACT */
+
+#contact{
+    height: 100vh;
+}
+
+.contacttopic{
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.contacttopic:hover {
+    cursor: pointer;
+    color: darkcyan;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.contactul{
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 165px;
+}
+
+.contactlist{
+    margin-top: 5px;
+    text-align: center;
+    list-style: none;
+    display: list-item;
+    border: 1px solid;
+    border-radius: 18px;
+    width: 150px;
+    padding: 2px;
+    margin-left: 395px;
+    
+}
+
+.contactlist:hover{
+    cursor: pointer;
+    color: darkcyan;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.address{
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: -50px;
+}
+
+.addressP{
+    margin-top: 5px;
+    text-align: center;
+    list-style: none;
+    display: list-item;
+    border: 1px solid;
+    border-radius: 18px;
+    width: 250px;
+    padding: 2px;
+    margin-left: 570px;
+}
+
+.addressP:hover{
+    cursor: pointer;
+    color: darkcyan;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.secfour{
+    margin-top: 200px;
+}
