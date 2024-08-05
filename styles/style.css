@@ -20,14 +20,15 @@ a:visited {
 /* Style */
 
 body {
-    background-image: url(../assets/bg.webp);
+    background: rgb(6, 9, 59);
+    background: radial-gradient(circle, rgba(6, 9, 59, 1) 0%, rgba(0, 0, 122, 1) 34%, rgba(0, 114, 138, 1) 100%);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
-section{
-	width:80%;
-	margin:auto;
+section {
+    width: 80%;
+    margin: auto;
 }
 
 .l1 {
@@ -62,8 +63,10 @@ section{
     max-height: 100vh;
 }
 
-.home{
+.home {
+    margin-top: -50px;
     margin-left: -3px;
+    padding-top: 50px;
 }
 
 h1 {
@@ -133,12 +136,17 @@ footer {
 
 /* ABOUT ME */
 
+.sectwo {
+    margin-top: -90px;
+}
+
 #about {
     height: 100vh;
 }
 
-.about{
+.about {
     margin-left: -3px;
+    padding-top: 50px;
 }
 
 .introduction {
@@ -230,7 +238,7 @@ footer {
     margin-left: 90px;
 }
 
-.rjt{
+.rjt {
     width: 200px;
     height: 150px;
     margin-top: -200px;
@@ -240,8 +248,16 @@ footer {
 
 /* PROJECT */
 
+.secthree {
+    margin-top: -5px;
+}
+
 #project {
     height: 100vh;
+}
+
+.project {
+    padding-top: 50px;
 }
 
 .myprojects {
@@ -332,15 +348,19 @@ footer {
 
 /* CONTACT */
 
-#contact{
+#contact {
     height: 100vh;
 }
 
-.contacttopic{
+.contact {
+    padding-top: 50px;
+}
+
+.contacttopic {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 50px;
 }
 
@@ -351,7 +371,7 @@ footer {
     transition: 0.3s;
 }
 
-.contactul{
+.contactul {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
@@ -359,7 +379,7 @@ footer {
     margin-left: 165px;
 }
 
-.contactlist{
+.contactlist {
     margin-top: 5px;
     text-align: center;
     list-style: none;
@@ -369,17 +389,17 @@ footer {
     width: 150px;
     padding: 2px;
     margin-left: 395px;
-    
+
 }
 
-.contactlist:hover{
+.contactlist:hover {
     cursor: pointer;
     color: darkcyan;
     scale: 1.1;
     transition: 0.3s;
 }
 
-.address{
+.address {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
@@ -387,7 +407,7 @@ footer {
     margin-left: -50px;
 }
 
-.addressP{
+.addressP {
     margin-top: 5px;
     text-align: center;
     list-style: none;
@@ -399,13 +419,13 @@ footer {
     margin-left: 570px;
 }
 
-.addressP:hover{
+.addressP:hover {
     cursor: pointer;
     color: darkcyan;
     scale: 1.1;
     transition: 0.3s;
 }
 
-.secfour{
+.secfour {
     margin-top: 200px;
 }
