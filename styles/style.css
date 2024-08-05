@@ -153,13 +153,14 @@ footer {
     width: fit-content;
     border: 3px solid;
     border-color: rgb(15, 103, 181);
-    margin-top: 50px;
-    margin-left: 250px;
+    margin-top: 10px;
+    margin-left: 270px;
 
 
 }
 
 .Iam {
+    margin-top: 170px;
     margin-left: 650px;
 }
 
@@ -171,7 +172,7 @@ footer {
 .brief {
     margin-left: 570px;
     color: white;
-    margin-top: 50px;
+    margin-top: 20px;
     letter-spacing: 5px;
     border-bottom: 1px white;
 }
