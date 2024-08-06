@@ -71,7 +71,7 @@ section {
 
 h1 {
     margin-top: 100px;
-    margin-left: 700px;
+    margin-left: 900px;
     color: rgb(255, 255, 255);
 }
 
@@ -82,7 +82,7 @@ h1:hover {
 
 h2 {
     margin-top: 40px;
-    margin-left: 650px;
+    margin-left: 850px;
     color: rgb(255, 255, 255);
 }
 
@@ -93,7 +93,7 @@ h2:hover {
 
 h3 {
     margin-top: 40px;
-    margin-left: 610px;
+    margin-left: 810px;
     color: rgb(255, 255, 255);
 }
 
@@ -105,7 +105,7 @@ h3:hover {
 .mylook {
     width: 900px;
     height: 360px;
-    margin-left: 300px;
+    margin-left: 500px;
 }
 
 .mylook:hover {
@@ -137,7 +137,7 @@ footer {
 /* ABOUT ME */
 
 .sectwo {
-    margin-top: -90px;
+    margin-top: 200px;
 }
 
 #about {
@@ -155,13 +155,12 @@ footer {
     border-color: rgb(15, 103, 181);
     margin-top: 10px;
     margin-left: 270px;
-
-
+    text-align: center;
 }
 
 .Iam {
-    margin-top: 170px;
-    margin-left: 650px;
+    margin-top: -5px;
+    margin-left: 850px;
 }
 
 .Iam:hover {
@@ -170,7 +169,7 @@ footer {
 }
 
 .brief {
-    margin-left: 570px;
+    margin-left: 750px;
     color: white;
     margin-top: 20px;
     letter-spacing: 5px;
@@ -230,20 +229,20 @@ footer {
 
 .itpic {
     margin-top: 90px;
-    margin-left: 80px;
+    margin-left: 180px;
 }
 
 .ps {
     width: 200px;
     height: 150px;
-    margin-left: 90px;
+    margin-left: 180px;
 }
 
 .rjt {
     width: 200px;
     height: 150px;
     margin-top: -200px;
-    margin-left: 1250px;
+    margin-left: 1550px;
 }
 
 
@@ -285,7 +284,7 @@ footer {
     border: 1px solid;
     width: 700px;
     padding: 2px;
-    margin-left: 250px;
+    margin-left: 380px;
 }
 
 .l2:hover {
@@ -329,7 +328,7 @@ footer {
     border: 1px solid;
     width: 100px;
     padding: 2px;
-    margin-left: 560px;
+    margin-left: 715px;
 }
 
 .l3:hover {
@@ -377,7 +376,7 @@ footer {
     font-weight: 700;
     color: #ffffff;
     margin-top: 40px;
-    margin-left: 165px;
+    margin-left: 715px;
 }
 
 .contactlist {
@@ -389,7 +388,7 @@ footer {
     border-radius: 18px;
     width: 150px;
     padding: 2px;
-    margin-left: 395px;
+    
 
 }
 
@@ -405,7 +404,7 @@ footer {
     font-weight: 700;
     color: #ffffff;
     margin-top: 40px;
-    margin-left: -50px;
+    margin-left: 100px;
 }
 
 .addressP {
