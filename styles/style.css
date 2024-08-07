@@ -335,6 +335,13 @@ footer {
     color: #ffffff;
     margin-top: 40px;
 }
+.mycertificate:hover {
+    cursor: pointer;
+    color: darkcyan;
+    transform: scale(1.1);
+    /* 'scale' changed to 'transform: scale' */
+    transition: 0.3s;
+}
 .certificatelist{
     margin-top: 5px;
     text-align: center;
