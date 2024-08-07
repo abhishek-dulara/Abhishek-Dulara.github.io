@@ -319,6 +319,44 @@ footer {
     margin-top: 50px;
 }
 
+/*CERTIFICATES */
+
+#certificate {
+    height: 100vh;
+}
+
+.certificate {
+    padding-top: 50px;
+}
+
+.mycertificate {
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 40px;
+}
+.certificatelist{
+    margin-top: 5px;
+    text-align: center;
+    list-style: none;
+    display: list-item;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    width: 500px;
+    padding: 2px;
+    margin: 10px auto;
+}
+
+.certificatelist:hover {
+    cursor: pointer;
+    color: rgb(255, 3, 3);
+    transform: scale(1.1);
+    /* 'scale' changed to 'transform: scale' */
+    transition: 0.4s;
+}
+
+
 /* CONTACT */
 #contact {
     height: 100vh;
